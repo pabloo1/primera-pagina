@@ -1,0 +1,44 @@
+body, html {
+height: 100%;
+width: 100%;
+margin: 0px;
+padding: 0px;
+}
+/*En este sector se modifica el body html, ocupa el 100% de altura y anchura. */
+#main {
+height: 80%;
+display: -webkit-flex;
+display: flex;
+flex-flow: row;
+}
+
+#main aside {
+background-color: blue;
+flex-grow: 1;
+}
+/*Se cambia el color del fondo  */
+#main2 {
+min-width: 66%;
+}
+
+#main2 article {
+background: #CFC;
+min-height: 90%;
+}
+/* altura minima */
+#main2 footer {
+min-height: 10%;
+background: #F66;
+}
+
+nav {
+background: #CCF;
+display: block;
+min-height: 10%;
+}
+header {
+display: block;
+min-height: 10%;
+background: #F76;
+}
+
